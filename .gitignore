@@ -11,7 +11,7 @@
 !/log/.keep
 !/tmp/.keep
 
-
+test/*
 /storage/*
 !/storage/.keep
 
@@ -30,3 +30,7 @@ yarn-debug.log*
 
 config/credentials.yml.enc
 config/database.yml
+
+config/settings.local.yml
+config/settings/*.local.yml
+config/environments/*.local.yml
