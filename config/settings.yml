@@ -11,3 +11,4 @@ valid_email_regex: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
 maximum_name: 50
 maximum_email: 255
 maximum_pw: 6
+size: 80

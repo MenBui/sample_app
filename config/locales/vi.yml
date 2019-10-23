@@ -39,3 +39,12 @@ vi:
   contact_the: Liên hệ với Hướng dẫn về Ruby on Rails về ứng dụng mẫu tại
   this_will: Đây sẽ là một trang đăng ký cho người dùng mới.
   signup: Đăng ký
+  create_account: Tạo tài khoản
+  name: Họ tên
+  email: Email
+  password: Mật khẩu
+  password_confirmation: Xác nhận nhận mật khẩu
+  the_form_contains: Biểu mẫu có chứa
+  error: lỗi
+  not_find_user: Không tìm thấy người dùng
+  create_fail: Không thành công
