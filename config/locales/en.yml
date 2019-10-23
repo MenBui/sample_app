@@ -48,3 +48,11 @@ en:
   error: error
   not_find_user: Not find user
   create_fail: Create fail
+  log_out: Log out
+  users: User
+  profile: Profile
+  settings: Settings
+  email_password: Invalid email/password combination
+  account: Account
+  sign_up_now: Sign up now!
+  new_user: New user!
