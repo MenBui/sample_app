@@ -12,3 +12,4 @@ maximum_name: 50
 maximum_email: 255
 maximum_pw: 6
 size: 80
+remember_me: 1
