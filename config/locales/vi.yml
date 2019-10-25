@@ -48,11 +48,13 @@ vi:
   error: lỗi
   not_find_user: Không tìm thấy người dùng
   create_fail: Không thành công
-  log_out: Đăng nhập
+  log_out: Đăng xuất
   users: Người dùng
   profile: Hồ sơ
   settings: Cài đặt
   email_password: Email hoặc mật khẩu không đúng
   account: Tài khoản
-  sign_up_now: Đăng nhập ngay
+  sign_up_now: Đăng ký ngay!
   new_user: Người dùng mới!
+  remember_me: Nhớ tài khoản
+  remember_me_on_this_computer: Nhớ tài khoản trên máy tính này
