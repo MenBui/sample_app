@@ -7,9 +7,11 @@ rails_rubyonrails: https://rubyonrails.org/
 rails_micheal: http://www.michaelhartl.com/
 rails_news: http://news.railstutorial.org/
 rails_contact: https://www.railstutorial.org/contact
+rails_edit: http://gravatar.com/emails
 valid_email_regex: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
 maximum_name: 50
 maximum_email: 255
 maximum_pw: 6
 size: 80
 remember_me: 1
+size_page: 10

@@ -38,16 +38,16 @@ en:
   news: News
   contact_the: Contact the Ruby on Rails Tutorial about the sample app at the
   this_will: This will be a signup page for new users.
-  sign_up: Sign up
+  signup: Sign up
   create_account: Create my account
   name: Name
   email: Email
   password: Password
-  password_confirmation: Password_confirmation
+  password_confirmation: Password confirmation
   the_form_contains: The form contains
   error: error
   not_find_user: Not find user
-  create_fail: Create fail
+  create_false: Create false
   log_out: Log out
   users: User
   profile: Profile
@@ -58,3 +58,16 @@ en:
   new_user: New user!
   remember_me: Remember me
   remember_me_on_this_computer: Remember me on this copmuter
+  edit_user: Edit user
+  update_your_profile: Update your profile
+  save_changes: Save changes
+  change: Change
+  profile_update: Profile update
+  update_false: Update false
+  please_log_in: Please log in
+  all_users: All users
+  delete: Delete
+  you_sure: You sure?
+  user_deleted: User deleted
+  not_found: User not found
+  false_delete: False delete

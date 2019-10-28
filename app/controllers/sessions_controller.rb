@@ -6,8 +6,12 @@ class SessionsController < ApplicationController
     if @user.authenticate(params[:session][:password])
       log_in @user
       flash[:success] = t "welcome"
-      params[:session][:remember_me] == Settings.remember_me ? remember(@user) : forget(@user)
-      redirect_to @user
+      if params[:session][:remember_me] == Settings.remember_me
+        remember @user
+      else
+        forget @user
+      end
+      redirect_back_or @user
     else
       flash[:danger] = t "email_password"
       render :new
@@ -23,7 +27,6 @@ class SessionsController < ApplicationController
 
   def check_user_present
     @user = User.find_by email: params[:session][:email].downcase
-
     return if @user
     flash[:danger] = t "email_password"
     render :new
