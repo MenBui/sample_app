@@ -47,7 +47,7 @@ vi:
   the_form_contains: Biểu mẫu có chứa
   error: lỗi
   not_find_user: Không tìm thấy người dùng
-  create_fail: Không thành công
+  create_false: Không thành công
   log_out: Đăng xuất
   users: Người dùng
   profile: Hồ sơ
@@ -58,3 +58,16 @@ vi:
   new_user: Người dùng mới!
   remember_me: Nhớ tài khoản
   remember_me_on_this_computer: Nhớ tài khoản trên máy tính này
+  edit_user: Thay đổi thông tin người dùng
+  update_your_profile: Cập nhật hồ sơ của bạn
+  save_changes: Lưu thay đổi
+  change: Thay đổi
+  profile_update: Hồ sơ đã được cập nhật
+  update_false: Cập nhật lỗi
+  please_log_in: Vui lòng đăng nhập
+  all_users: Tất cả người dùng
+  delete: Xóa
+  you_sure: Bạn chắn chắc muốn xóa?
+  user_deleted: Đã xóa người dùng
+  not_found: Không tìm thấy người dùng
+  false_delete: Không thể xóa người dùng
