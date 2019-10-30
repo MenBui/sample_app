@@ -71,3 +71,10 @@ en:
   user_deleted: User deleted
   not_found: User not found
   false_delete: False delete
+  hi: Hi
+  click_on: Welcome to the Sample App! Click on the link below to activate your account
+  activate: Activate
+  please_check: Please check your email to activate your account.
+  account_not_activated_check_mail: Account not activated!Check your email for the activation link.
+  invalid_activation_link: Invalid activation link
+  account_activation: Account activation

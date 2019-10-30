@@ -71,3 +71,10 @@ vi:
   user_deleted: Đã xóa người dùng
   not_found: Không tìm thấy người dùng
   false_delete: Không thể xóa người dùng
+  hi: Xin chào
+  click_on: Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết dưới đây để kích hoạt tài khoản của bạn
+  activate: Kích hoạt
+  please_check: Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn.
+  account_not_activated_check_mail: Tài khoản chưa được kích hoạt! Kiểm tra email của bạn cho các liên kết kích hoạt.
+  invalid_activation_link: Liên kết kích hoạt không hợp lệ
+  account_activation: Kích hoạt tài khoản
