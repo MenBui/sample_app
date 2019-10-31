@@ -78,3 +78,19 @@ vi:
   account_not_activated_check_mail: Tài khoản chưa được kích hoạt! Kiểm tra email của bạn cho các liên kết kích hoạt.
   invalid_activation_link: Liên kết kích hoạt không hợp lệ
   account_activation: Kích hoạt tài khoản
+  password_reset: Đặt lại mật khẩu
+  account_activated: Tài khoản đã được kích hoạt
+  to_reset: Để thiết lập lại mật khẩu của bạn, nhấp vào liên kết dưới đây
+  reset_password: Đặt lại mật khẩu
+  this_link: Liên kết này sẽ hết hạn trong hai giờ.
+  if_you_did_not: Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này và mật khẩu của bạn sẽ được giữ nguyên.
+  click_the_link_below: Để đặt lại mật khẩu của bạn, nhấp vào liên kết dưới đây
+  expire_in_two_hours: Liên kết này sẽ hết hạn trong hai giờ.
+  update_password: Cập nhật mật khẩu
+  submit: Xác nhận
+  forgot_pw: Quên mật khẩu
+  email_sent: Email được gửi với hướng dẫn đặt lại mật khẩu
+  email_address: Địa chỉ email không đúng
+  password_has_been_reset: Mật khẩu đã được đặt lại
+  password_reset_has_expired: Đặt lại mật khẩu đã hết hạn.
+  be_empty: không được để trống
