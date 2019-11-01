@@ -190,3 +190,93 @@ input {
     border-bottom: 1px solid $gray-lighter;
   }
 }
+
+.microposts {
+  list-style: none;
+  padding: 0;
+  li {
+    padding: 10px 0;
+    border-top: 1px solid $black;
+  }
+  .user {
+    margin-top: 5em;
+    padding-top: 0;
+  }
+  .content {
+    display: block;
+    margin-left: 60px;
+    img {
+      display: block;
+      padding: 5px 0;
+    }
+  }
+  .timestamp {
+    color: $gray-light;
+    display: block;
+    margin-left: 60px;
+  }
+  .gravatar {
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+}
+
+aside {
+  textarea {
+    height: 100px;
+    margin-bottom: 5px;
+  }
+}
+
+span.picture {
+  margin-top: 10px;
+  input {
+    border: 0;
+  }
+}
+/* paginate */
+.pagination a, .pagination span.current, .pagination span.gap {
+  float: left;
+  padding: 0 14px;
+  line-height: 38px;
+  text-decoration: none;
+  background-color: $white;
+  border: 1px solid $solid-white-2;
+  border-left-width: 0;
+}
+
+.paginate_row{
+  text-align: center;
+  margin: 0 2%;
+}
+
+.pagination {
+  border-left: 1px solid $solid-white-3;
+  color: $black;
+  .first{
+    padding: 0;
+    float: none;
+    border: none;
+  }
+  .prev {
+    padding: 0;
+    float: none;
+    border: none;
+  }
+  .page{
+    padding: 0;
+    float: none;
+    border: none;
+  }
+  .next{
+    padding: 0;
+    float: none;
+    border: none;
+  }
+  .last{
+    padding: 0;
+    float: none;
+    border: none;
+  }
+}
