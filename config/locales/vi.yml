@@ -94,3 +94,21 @@ vi:
   password_has_been_reset: Mật khẩu đã được đặt lại
   password_reset_has_expired: Đặt lại mật khẩu đã hết hạn.
   be_empty: không được để trống
+  micropost_created: Mẩu tin đã được tạo ra!
+  micropost_deleted: Mẩu tin đã được xóa
+  must_be_a: ảnh phải đúng định dạng
+  should_be_less_than_5MB: ảnh phải dưới 5MB
+  view_my_profile: hồ sơ của tôi
+  post: Đăng
+  maximun_file: Kích thước tệp tối đa là 5MB. Vui lòng chọn một tập tin nhỏ hơn.
+  micropost_feed: Bảng tin
+  microposts: Các mẩu tin
+  posted: Đã đăng
+  ago: trước
+  compose_new_micropost: Soạn mẩu tin mới...
+  micropost:
+    one: "%{count} mẩu tin"
+    other: "%{count} mẩu tin"
+  error:
+    one: "%{count} lỗi"
+    other: "%{count} lỗi"

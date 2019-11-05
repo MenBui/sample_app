@@ -16,3 +16,8 @@ size: 80
 remember_me: 1
 size_page: 10
 reset_sent_at: 2
+rails_image: (%w(image/jpeg image/gif image/png))
+image_size: 5
+limit_image: 500
+content_length: 140
+image_accept: image/jpeg,image/gif,image/png
