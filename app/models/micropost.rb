@@ -7,10 +7,13 @@ class Micropost < ApplicationRecord
             content_type: {in: Settings.rails_size,
                            message: I18n.t("must_be_a")},
             size: {less_than: Settings.image_size.megabytes,
-                   message: I18n.t("should_be_less_than_5MB") }
+                   message: I18n.t("should_be_less_than")}
 
-  scope :order_by_created_at, -> {order created_at: :desc}
-  scope :feed, -> (id){where user_id: id}
+  scope :order_by_created_at, ->{order created_at: :desc}
+  scope :feed, (lambda do |id|
+    where(user_id: Relationship.following_ids(id))
+    .or(Micropost.where(user_id: id))
+  end)
 
   def display_image
     image.variant resize_to_limit: [Settings.limit_image, Settings.limit_image]
