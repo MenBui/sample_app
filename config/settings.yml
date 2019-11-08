@@ -21,3 +21,4 @@ image_size: 5
 limit_image: 500
 content_length: 140
 image_accept: image/jpeg,image/gif,image/png
+gra_user: 30

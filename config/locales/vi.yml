@@ -97,7 +97,7 @@ vi:
   micropost_created: Mẩu tin đã được tạo ra!
   micropost_deleted: Mẩu tin đã được xóa
   must_be_a: ảnh phải đúng định dạng
-  should_be_less_than_5MB: ảnh phải dưới 5MB
+  should_be_less_than: phải dưới 5MB
   view_my_profile: hồ sơ của tôi
   post: Đăng
   maximun_file: Kích thước tệp tối đa là 5MB. Vui lòng chọn một tập tin nhỏ hơn.
@@ -112,3 +112,7 @@ vi:
   error:
     one: "%{count} lỗi"
     other: "%{count} lỗi"
+  following: Đang theo dõi
+  followers: Người theo dõi
+  follow: Theo dõi
+  unfollow: Bỏ theo dõi

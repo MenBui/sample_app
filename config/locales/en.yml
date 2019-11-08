@@ -97,7 +97,7 @@ en:
   micropost_created: Micropost created!
   micropost_deleted: Micropost deleted
   must_be_a: must be a valid image format
-  should_be_less_than_5MB: should be less than 5MB
+  should_be_less_than: should be less than 5MB
   view_my_profile: view my profile
   post: Post
   maximun_file: Maximun file size is 5MB. Please choose a smaller file.
@@ -112,4 +112,8 @@ en:
   error:
     one: "%{count} error"
     other: "%{count} errors"
+  following: Following
+  followers: Followers
+  follow: Follow
+  unfollow: Unfollow
 

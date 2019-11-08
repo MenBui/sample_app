@@ -35,7 +35,8 @@ class MicropostsController < ApplicationController
       redirect_to root_url
     else
       flash[:danger] = t "create_false"
-      @feed_items = Micropost.feed(current_user.id).page(params[:page]).per Settings.size_page
+      @feed_items = Micropost.feed(current_user.id).order_by_created_at
+                             .page(params[:page]).per Settings.size_page
       render "static_pages/home"
     end
   end
